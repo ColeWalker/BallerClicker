@@ -1,0 +1,19 @@
+#main{
+    width: 700px;
+}
+
+.left {
+    width:500px;
+    height:123px;
+    float: left;
+}
+
+.right {
+    width:200px;
+    height:123px;
+    float: right;
+}
+button
+{
+    width: 150px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Baller Clicker</title>
+    <link rel="stylesheet" type="text/css" href="clickerStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="game" class="left">
+            <h3 id="header">You've scored some points</h3>
+            <button id="threeButton">Shoot a three</button>
+            <button id="twoButton">Shoot a mid-ranger</button>
+            <button id="freeThrow">Take a free throw</button>
+        </div>
+        <div id="stats" class="right">
+            <ul>
+                <li id="threePercent"> </li>
+                <li id="twoPercent">Two Point Percent: </li>
+                <li id="freePercent">Free Throw Percent: </li>
+            </ul>
+        </div>
+    </div>
+    <div id="upgrades">
+        <div id= "threeUpgrade" class="upgradeButton">
+            <button id="upThree" disabled>Upgrade 3Pt%</button>
+            <p id="threeCost" class="percentCost">points</p>
+        </div>
+        <div id= "twoUpgrade" class="upgradeButton">
+            <button id="upTwo" disabled>Upgrade 2Pt%</button>
+            <p id="twoCost" class="percentCost">points</p>
+        </div>
+        <div id= "freeUpgrade">
+            <button id="upFree" disabled>Upgrade FTPt%</button>
+            <p id="freeCost" class="percentCost">points</p>
+        </div>
+    </div>
+</body>
+    <script type="txt/javascript"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
